@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Quiz
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-left>
+        <ion-icon name="bitcoin"></ion-icon>
+        10
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page8" style="background-color:#F0F0F0;">
+  <form id="quiz-form8">
+    <ion-item id="quiz-input18">
+      <ion-label>
+        Last salary
+      </ion-label>
+      <ion-input type="text" placeholder="U$ 1000,00"></ion-input>
+    </ion-item>
+    <ion-item id="quiz-input19">
+      <ion-label>
+        Current salary
+      </ion-label>
+      <ion-input type="text" placeholder="R$ 1000,00"></ion-input>
+    </ion-item>
+    <ion-item id="quiz-input20">
+      <ion-label>
+        Members family
+      </ion-label>
+      <ion-input type="text" placeholder="3"></ion-input>
+    </ion-item>
+    <div id="quiz-markdown9" class="show-list-numbers-and-dots">
+      <p style="color:#F3EAEA;">
+        Como se desloca atualmente:
+      </p>
+    </div>
+    <ion-item id="quiz-checkbox1">
+      <ion-label>
+        Public transport
+      </ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+    <ion-item id="quiz-checkbox2">
+      <ion-label>
+        Walking
+      </ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+    <ion-item id="quiz-checkbox3">
+      <ion-label>
+        Bike
+      </ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+  </form>
+  <button id="quiz-button7" ion-button color="assertive" block on-click="goToCongrats()">
+    Finish
+  </button>
+</ion-content>
